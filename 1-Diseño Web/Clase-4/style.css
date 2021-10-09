@@ -1,0 +1,40 @@
+
+body{
+      font: 13px/20px verdana; 
+      padding: 20px;
+}
+
+img{
+    border: 10px solid #2F4F4F;
+    border-radius: 15px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+#div1 {
+    background-color: #FF0000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+#div2 {
+   
+}
+
+#div3 {
+    
+}
+
+#div4 {
+     
+}
+
+#div5{
+    text-align: center;
+}
+
+
