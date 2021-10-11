@@ -1,12 +1,14 @@
 
 body{
-      font: 13px/20px verdana; 
-      padding: 20px;
+       font: 13px/20px verdana;
+       padding: 20px;
+       background-color: #FA5858;
 }
 
 img{
-    border: 10px solid #2F4F4F;
-    border-radius: 15px;
+    
+    width: 150px;
+    margin: auto;
 }
 
 h1{
@@ -14,23 +16,10 @@ h1{
 }
 
 #div1 {
-    background-color: #FF0000;
+    background-color: #FE2E2E;
     text-align: center;
-    padding: 10px;
-    border-radius: 15px;
-    
-}
-
-#div2 {
-   
-}
-
-#div3 {
-    
-}
-
-#div4 {
-     
+    padding: 15px;
+    border-radius: 20px;   
 }
 
 #div5{
