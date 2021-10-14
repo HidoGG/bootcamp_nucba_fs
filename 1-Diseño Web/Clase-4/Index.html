@@ -4,78 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.CSS" />
+     <link rel="stylesheet" href="style.CSS" />
     <title>Nucba-Clase-02</title>
 </head>
 <body>
 
-
-     <div id="div1">
+    <main id="div1">
          <!--Bloque comentado-->
         <h1>Hidalgo Gabriel</h1>
-        <img src="../../1-Diseño Web/Clase-1/Img/Sin título.jpg" alt="Foto de perfil, Hidalgo Gabriel" >
-    </div>
+        <img src="../../1-Diseño Web/Clase-1/Img/Sin título.jpg" alt="Foto de perfil, Hidalgo Gabriel" class="img" >
+        
     
-    <main id="div">
-        <div id="div2">
-            <article>
-                <h2>Me presento</h2>
-                <p>
-                    Mi nombre es Gabriel Hidalgo, soy una persona organizada y con una gran motivación.   
-                </p>
-            </article>
-        </div>
+   
+        <section>
+            <h2>Me presento</h2>
+            <div id="div2">
+                <article>
+                    <p>
+                        Mi nombre es Gabriel Hidalgo, soy una persona organizada y con una gran motivación.   
+                    </p>
+                </article>
+            </div>
 
-        <div id="div3">
-            <h2>Mis pasatiempos</h2>
-        <!--Lista ordenada-->
-                <ol>
-                    <li>Deportes
-                        <ul>
-                            <li>Basquet</li>
-                            <li>Boxeo</li>
-                        </ul>
-                    </li>
-                    <li>Tecnología</li>
-                </ol>
-        </div>
-
-        <section id="div4">
-            <h2>Mi cita favorita</h2>
+            <div id="div3">
+                <h2>Mis pasatiempos</h2>
+            <!--Lista ordenada-->
+                    <ol>
+                        <li>Deportes
+                            <ul>
+                                <li>Basquet</li>
+                                <li>Boxeo</li>
+                            </ul>
+                        </li>
+                        <li>Tecnología</li>
+                    </ol>
+            </div>
+            <div id="divA">
+                 <h2>Mi cita favorita</h2>
             <article>
                 <p>
                     Desde nuestra más tierna infancia nos han enseñado a temer al fracaso, a que es lo peor que nos puede ocurrir, pero esto no es así, cuando tememos al fracaso no nos atreveremos a luchar por nuestros sueños ni aprovecharemos las oportunidades tal y como lo dice <cite lang="en">Franklin D. Roosvelt</cite> : "En la vida hay algo peor que el fracaso: el no haber intentado nada". 
                 </p>
-            </article>
+            </div>
+            <aside>
+                <div id="div4">
+                    <h3>Contacto</h3>
+                
+                    <form>
+                        <ol>
+                            <li>
+                                <label for="Nombre">Nombre y Apellido:</label>
+                            </li>
+                            <li><input type="text" placeholder="Ejem: Pepito Sanches">
+                            </li>
+                            <br>
+                            <li>
+                            <label for="email">Email:</label>
+                            <input type="email" required placeholder="Ejem: pepitosanch@gmail.com">
+                            </li>
+                            <br>
+                            <li>
+                            <label for="Seleccione Sexo">Seleccione Sexo</label>
+                            <select>
+                                <option value="Femenino">F</option>
+                                <option value="Masculino">M</option>
+                                <option value="No tiene">X</option>
+                            </select>
+                            </li>
+                            <br><br>
+                            <input type="submit">
+                        </ol>
+                    </form>
+                </aside>
+            </div>
         </section>
-
-        <div id="div5">
-            <h3>Contacto</h3>
-        
-            <form>
-                <label for="Nombre">Nombre y Apellido:</label>
-                <input type="text" placeholder="Ejem: Pepito Sanches">
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" required placeholder="Ejem: pepitosanch@gmail.com">
-                <br>
-                <label for="Seleccione Sexo">Seleccione Sexo</label>
-                <select>
-                    <option value="Femenino">F</option>
-                    <option value="Masculino">M</option>
-                    <option value="No tiene">X</option>
-                </select>
-                <br><br>
-                <input type="submit">
-        
-            </form>
-        </div>
-
-        <div>
-            <p>
-                Fin de la presentación &#9816;
-            </p>
-        </div> 
     </main>
+    <footer>
+       <p>
+            &#9816; Fin de la presentación &#9816;
+        </p>
+    </footer> 
 </body>
 </html>
