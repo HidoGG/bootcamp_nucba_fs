@@ -8,78 +8,75 @@
     <title>Nucba-Clase-02</title>
 </head>
 <body>
-
-    <main id="div1">
-         <!--Bloque comentado-->
-        <h1>Hidalgo Gabriel</h1>
-        <img src="../../1-Diseño Web/Clase-1/Img/Sin título.jpg" alt="Foto de perfil, Hidalgo Gabriel" class="img" >
-        
-    
-   
-        <section>
-            <h2>Me presento</h2>
-            <div id="div2">
-                <article>
-                    <p>
-                        Mi nombre es Gabriel Hidalgo, soy una persona organizada y con una gran motivación.   
-                    </p>
-                </article>
+   <!--Main container-->
+    <main class="main">
+        <!--main picture -->
+         <section class="image">
+            <h1>Hidalgo Gabriel</h1>
+            <img src="../../1-Diseño Web/Clase-1/Img/Sin título.jpg" alt="Foto de perfil, Hidalgo Gabriel" class="img" >
+        </section>
+        <!--secondary container-->
+        <article class="content">
+            <h2 class="content__title">Me presento</h2>
+            <div class="content__description">
+                <p>
+                    Mi nombre es Gabriel Hidalgo, soy una persona organizada y con una gran motivación.   
+                </p>
             </div>
-
-            <div class="pasati">
+            <div class="content__hobby">
                 <h2>Mis pasatiempos</h2>
-            <!--Lista ordenada-->
-                    <ol>
-                        <li>Deportes
-                            <!--<ul>
-                                <li>Basquet</li>
-                                <li>Boxeo</li>
-                            </ul>-->
-                        </li>
-                        <li>Tecnología</li>
-                        <li>Música</li>
-                    </ol>
+                <ol>
+                    <li>Deportes</li>
+                    <li>Tecnología</li>
+                    <li>Música</li>
+                </ol>
             </div>
-            <div id="divA">
+            <div class="content__citation">
                  <h2>Mi cita favorita</h2>
-            <article>
                 <p>
                     Desde nuestra más tierna infancia nos han enseñado a temer al fracaso, a que es lo peor que nos puede ocurrir, pero esto no es así, cuando tememos al fracaso no nos atreveremos a luchar por nuestros sueños ni aprovecharemos las oportunidades tal y como lo dice <cite lang="en">Franklin D. Roosvelt</cite> : "En la vida hay algo peor que el fracaso: el no haber intentado nada". 
                 </p>
             </div>
-            <aside>
-                <div id="div4">
-                    <h3>Contacto</h3>
-                
-                    <form>
-                        <ol>
-                            <li>
-                                <label class="Nombre" for="Nombre">Nombre y Apellido:</label>
-                            </li>
-                            <li><input type="text" placeholder="Ejem: Pepito Sanches">
-                            </li>
-                            <br>
-                            <li>
+            <!--contact info -->
+            <section class="info">
+                <h3>Contacto</h3>
+                <form>
+                    <ol>
+                        <li>
+                            <label for="Nombre">Nombre y Apellido:</label>
+                        </li>
+                        <li>
+                            <input type="text" placeholder="Ejem: Pepito Sanches">
+                        </li>
+                        <br>
+                        <li>
                             <label for="email">Email:</label>
                             <input type="email" required placeholder="Ejem: pepitosanch@gmail.com">
-                            </li>
-                            <br>
-                            <li>
+                        </li>
+                        <br>
+                        <li>
                             <label for="Seleccione Sexo">Seleccione Sexo</label>
                             <select>
                                 <option value="Femenino">F</option>
                                 <option value="Masculino">M</option>
                                 <option value="No tiene">X</option>
                             </select>
-                            </li>
-                            <br><br>
-                            <input type="submit">
-                        </ol>
-                    </form>
-                </div>
-            </aside>
-        </section>
+                        </li>
+                        <br><br>
+                        <input type="submit">
+                    </ol>
+                </form>
+                <!--tooltin-->
+                <nav class="tooltin">
+                    <span class="tooltip__github">Mi GitHub</span>
+                    <a href="https://github.com/HidoGG" class="tooltin__github">
+                    <img src="../../1-Diseño Web/Clase-1/Img/github_icon-icons.com_60477.png" lang="en" alt:"GitHub" class="tooltip__gitHub">
+                    </a>
+                </nav>
+            </section>
+        </article>
     </main>
+    <!--end-->
     <footer>
        <p>
             &#9816; Fin de la presentación &#9816;

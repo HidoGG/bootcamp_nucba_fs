@@ -17,18 +17,28 @@ main {
     
 }
 
+/* En contruccion nav */
+/*nav {
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    display: flex;
+    gap: .1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 20px gray;
+}
+*/
+
 form {
 
     background-color: #ffffff;
     margin: 5px;
     border: 4px ridge #ffffff83;
-    /*margin-left: 100px;
-    margin-right: 100px;*/
     margin: 0px 100px 100px 100px;
 
 }
-
-
 
 footer {
     background-color: #292e2c;
@@ -38,21 +48,14 @@ footer {
 }
 
 h1 {
-
     text-decoration: underline overline;
+}
+
+h1, h2 {
     font-family: "Trebuchet Ms";
     text-transform: capitalize;
     font-variant: small-caps;
 }
-
-h2 {
-
-    font-family: "Trebuchet Ms";
-    text-transform: capitalize;
-    font-variant: small-caps;
-}
-
-
 
 ol, ul {
     list-style-type: none;
@@ -60,14 +63,11 @@ ol, ul {
     
 }
 
-
-
 img{
     margin: 5px;
-    border: 4px ridge #4169e14f;
+    border: 4px ridge #1c21304f;
     border-radius: 40px;
-   
-    
+    box-shadow: 5px 5px 25px rgb(44, 43, 43);
 }
 
 
