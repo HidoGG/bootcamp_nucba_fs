@@ -13,9 +13,37 @@ body {
 main {
     background-color: #f5ebeb34;
     border: 1px solid #f5ebeb34;
-    border-radius: 50px 50px 0px 0px;
+    /*rder-radius: 50px 50px 0px 0px;*/
     
 }
+
+header {
+    background-color: #f5ebeb34;
+    /*border-radius: 50px 50px 0px 0px;*/
+}
+
+.tooltin {
+    display: flex;
+    gap: 1rem;
+   
+    
+}
+
+.tooltip__face {
+    width: 50px;
+    
+}
+
+.tooltip__gitHub {
+    width: 50px;
+}
+
+.tooltip__link {
+    width: 50px;
+}
+
+
+
 
 /* En contruccion nav */
 /*nav {
