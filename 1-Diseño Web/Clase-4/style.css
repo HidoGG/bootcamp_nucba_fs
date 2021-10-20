@@ -12,52 +12,20 @@ body {
 
 main {
     background-color: #f5ebeb34;
-    border: 1px solid #f5ebeb34;
-    /*rder-radius: 50px 50px 0px 0px;*/
-    
+    border: 1px solid #f5ebeb34;  
 }
 
 header {
     background-color: #f5ebeb34;
-    /*border-radius: 50px 50px 0px 0px;*/
-}
-
-.tooltin {
+    border: 1px solid #f5ebeb34;
     display: flex;
-    gap: 1rem;
-   
-    
-}
-
-.tooltip__face {
-    width: 50px;
-    
-}
-
-.tooltip__gitHub {
-    width: 50px;
-}
-
-.tooltip__link {
-    width: 50px;
+    justify-content: center;
 }
 
 
-
-
-/* En contruccion nav */
-/*nav {
-    position: absolute;
-    background-color: hsl(217, 19%, 35%);
-    color: hsl(210, 46%, 95%);
-    display: flex;
-    gap: .1rem;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 0.5rem;
-    box-shadow: 3px 3px 20px gray;
+.tooltin__link, .tooltin__face, .tooltin__gitHub {
+    width: 40px;
 }
-*/
 
 form {
 
