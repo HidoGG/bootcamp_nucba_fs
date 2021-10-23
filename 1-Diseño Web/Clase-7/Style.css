@@ -17,13 +17,91 @@ img {
    width: 100%; 
 }
 
-.header__container {
-    position: relative;
+.header__conta{
+   position: relative;
     z-index: 100;
 }
 
-.logo{
-    font-weight: 50%;
-   
+.logo {
+    font-weight: 1000;
+    font-size: 30px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: #ffffff;
+}
+
+.banner {
+    height: 50vh;
+    margin-top: -50px;
+    position: relative;
+    background: url(img/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner__descripcion {
+    position: absolute;
+    text-align: center;
+    color: #bd2727;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.banner__button {
+    background: darkblue;
+    border: none;
+    padding: 7px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.banner__button:hover {
+    border: 2px solid #9cc76b;
+    background: none;
+}
+
+.main__conta {
+    font: 15px/25px "Arial",
+    "Helvetica",
+    "sans-serif";
+    text-align: center;
+    border: 1px solid #292e2c;
+    
+}
+/*
+nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
+    max-width: 110px;
+    
+    margin: auto;
+
+}
+*/
+
+
+.container__sport {
+    text-align: center;
+    border: 1px solid #bd2727;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
+.sport__nav {
+    background: cornsilk;
+    background-position: center;
+    border: 1px solid #9cc76b;
+    padding: 1em;
+    grid: 2rem;
+    margin: 50px;
+    border: -50px;
     
 }
