@@ -1,0 +1,58 @@
+:root {
+    --Very_Dark_Magenta: hsl(300, 43%, 22%); 
+    --Soft_Pink: hsl(333, 80%, 67%);
+    --Dark_Grayish_Magenta: hsl(303, 10%, 53%);
+    --Light_Grayish_Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    width: 1440px;
+    height: 800;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+    font-family: Spartan, Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(12, 120px);
+    grid-template-rows: repeat(5, 160px);
+}
+
+header {
+    grid-column: 1 / 8;
+    grid-row: 1 / 4;
+    display: flex;
+}
+
+.container_Star{
+    align-self: flex-end;
+}
+/*
+main {
+    grid-column: 1 / 13;
+    grid-row: 4 / 5;
+    
+    
+}
+*/
+.container_Colton {
+    grid-column: 8 / 13;
+    grid-row: 1 / 5;
+    background: var(--Very_Dark_Magenta);
+    border-radius: 10px;
+    margin: 40px;
+    color: var(--Very_Dark_Magenta);
+
+
+
+   /*flex-direction: column;
+   justify-content: space-between;*/
+
+}
+
